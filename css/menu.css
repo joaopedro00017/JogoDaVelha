@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url(../images/bola-de-ouro.webp);
+    background-size: 100%;
+}
+
+body h2{
+    text-align: right;
+    padding: 80px 8%;
+    font-size: 100px;
+}
+
+.jogar a{
+    padding: 80px 8%;
+    font-size: 50px;
+    text-align: right;
+    text-decoration: none;
+    color: #00ff7f;
+}

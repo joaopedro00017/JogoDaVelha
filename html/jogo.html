@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="../css/grany.css">
+</head>
+
+<body>
+    <form>
+        <h2>Deseja jogar contra a máquina?</h2>
+        <label>
+            <input type="radio" name="jogar" value="sim" onclick="configurarJogo('sim')" required> Sim
+        </label><br>
+        <label>
+            <input type="radio" name="jogar" value="nao" onclick="configurarJogo('nao')" required> Não
+        </label><br>
+    </form>
+
+    <table width="200" border="1">
+        <tbody>
+            <tr>
+                <td><img src="../images/transp.png" id="c1" onclick="checkjogo(this.id)"></td>
+                <td><img src="../images/transp.png" id="c2" onclick="checkjogo(this.id)"></td>
+                <td><img src="../images/transp.png" id="c3" onclick="checkjogo(this.id)"></td>
+            </tr>
+            <tr>
+                <td><img src="../images/transp.png" id="c4" onclick="checkjogo(this.id)"></td>
+                <td><img src="../images/transp.png" id="c5" onclick="checkjogo(this.id)"></td>
+                <td><img src="../images/transp.png" id="c6" onclick="checkjogo(this.id)"></td>
+            </tr>
+            <tr>
+                <td><img src="../images/transp.png" id="c7" onclick="checkjogo(this.id)"></td>
+                <td><img src="../images/transp.png" id="c8" onclick="checkjogo(this.id)"></td>
+                <td><img src="../images/transp.png" id="c9" onclick="checkjogo(this.id)"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="mensagemFimDeJogo"></div>
+
+
+    <button id="reiniciar" onclick="reiniciarJogo()">Reiniciar Jogo</button>
+    <script src="../js/estrutura_logica.js"></script>
+</body>
+
+</html>

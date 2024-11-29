@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Poppins", sans-serif;
+}
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Organiza os itens de cima para baixo */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../images/Fundo.webp) ;
+    background-size: 1600px 900px;
+}
+
+/* Estilo para o formulário de escolha */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Título na parte superior */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px; /* Espaço entre o título e o tabuleiro */
+}
+
+/* Estilo para a tabela (tabuleiro do jogo) */
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+table img{
+    width: 100px;
+    height: 100px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo para o botão de reiniciar */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto; /* Coloca o botão na parte inferior */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+#mensagemFimDeJogo{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: beige;
+}
