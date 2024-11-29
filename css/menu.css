@@ -23,3 +23,10 @@ body h2{
     text-decoration: none;
     color: #00ff7f;
 }
+
+@media screen and (max-width:1020px) {
+    body{
+    background-image: url(../images/FindoMobile.png);
+    background-size: 100%;
+    }
+}
