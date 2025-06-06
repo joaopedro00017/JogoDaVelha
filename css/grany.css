@@ -114,7 +114,7 @@ button:active {
 
 @media screen and (max-width: 1020px) {
   body {
-    background-image: url(../images/capa_menu_do_jogo_da_velha_mobile.png);
+    background-image: url(../images/capa_menu_do_jogo_da_velha_mobile.jpeg);
     background-size: cover;
   }
 }
